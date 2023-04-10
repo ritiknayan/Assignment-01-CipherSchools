@@ -75,8 +75,7 @@ class _CoursesState extends State<Courses> {
                     decoration: BoxDecoration(
                       // borderRadius: BorderRadius.circular(20.0),
                       image: DecorationImage(
-                        image:
-                            NetworkImage(coursePageSliderList[index].imageUrl),
+                        image: AssetImage(coursePageSliderList[index].imageUrl),
                         fit: BoxFit.cover,
                       ),
                     ),
@@ -157,7 +156,7 @@ class _CoursesState extends State<Courses> {
               Card(
                 color: Colors.black87,
                 child: DropdownButton<String>(
-                  underline: Divider(color: Colors.black),
+                    underline: const Divider(color: Colors.black),
                     elevation: 10,
                     icon: const Icon(Icons.arrow_downward),
                     dropdownColor: Colors.black,
@@ -210,7 +209,7 @@ class _CoursesState extends State<Courses> {
                         ),
                         child: Image(
                             fit: BoxFit.cover,
-                            image: NetworkImage(
+                            image: AssetImage(
                                 secondcoursePageSliderList[index].imageUrl)),
                       ),
                       const SizedBox(
