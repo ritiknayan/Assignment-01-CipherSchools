@@ -33,7 +33,6 @@ class _HomePageState extends State<HomePage> {
               child: ClipRRect(
                 borderRadius: const BorderRadius.all(Radius.circular(30)),
                 child: BottomNavigationBar(
-                 
                   selectedItemColor: kTextColor,
                   unselectedItemColor: Colors.grey,
                   showSelectedLabels: true,

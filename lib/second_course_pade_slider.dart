@@ -26,8 +26,7 @@ List<SecondCoursePageSlider> secondcoursePageSliderList = [
     title: "FREE Mock IELTS/TOEFL",
     description: "AI generated feedback...  Test duration 30 min",
     bottomTitle: "Languify",
-    imageUrl:
-        "https://images.pexels.com/photos/67112/pexels-photo-67112.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageUrl: "assets/secondcourseslider1.jpg",
     buttonTitle: "Languify",
     bottomDescription: "express and excel",
   ),
@@ -36,8 +35,7 @@ List<SecondCoursePageSlider> secondcoursePageSliderList = [
     title: "Web Developement",
     description: " No. of videos: 138",
     bottomTitle: "Harshit Vashisth",
-    imageUrl:
-        "https://images.pexels.com/photos/4498455/pexels-photo-4498455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    imageUrl: "assets/secondcourseslider2.jpg",
     buttonTitle: "Web Developement",
     bottomDescription: "Instructor",
   ),
